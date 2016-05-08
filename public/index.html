@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="devCaster" class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>DevCaster</title>
+
+    </head>
+    
+    <body>
+        <div ng-controller="FeedsCtrl">
+            <input type="text" ng-model="filterFeedsForSubject"/>
+            
+            <div ng-repeat="feed in feeds">
+                {{feed.rss}}
+            </div>
+            
+            <div ng-repeat="feedData in feedsData">
+               <p>Autor: {{feedData.author}}</p>
+               <p>Titulo: {{feedData.title}}</p>
+            </div>
+        </div>
+        
+        <footer>
+
+        </footer>
+        
+        
+        <script src="/build/bundle.js"></script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+[
+    {
+        "rss": "http://devnaestrada.com.br/feed.xml",
+        "en": "pt"
+    },
+    {
+        "rss": "http://zofe.com.br/feed/podcast.xml",
+        "en": "pt"
+    },
+    {
+        "rss": "http://tecnologicamentearretado.com.br/podcast.xml",
+        "en": "pt"
+    },
+    {
+        "rss": "https://frontendfive.codeschool.com/feed.rss",
+        "en": "en"
+    },
+    {
+        "rss": "https://fivejs.codeschool.com/feed.rss",
+        "en": "en"
+    }
+]
